@@ -1,0 +1,23 @@
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 300px;
+  height: 200px;
+  border: 1px solid rgb(249, 85, 85);
+  border-radius: 0.5em;
+}
+
+/* the margin auto property helps to give equal space on both side of the image */
+/* image is an inline element that's why we need to set the image as block first to set margin auto */
+.child {
+  width: 50%;
+  display: block;
+  object-fit: cover;
+  margin: auto;
+  height: 100%;
+}
+
+/* we can use the float property to align the elements as left right or center */
